@@ -32,7 +32,3 @@ services:
       - "5001:80"
       - "5000:443"
         
-networks:
-  default:
-    external:
-      name: nat
